@@ -23,6 +23,8 @@ Interactive:
 ```bash
 java-switcher
 ```
+![Interactive mode](https://raw.githubusercontent.com/andycillin/java-switcher/master/docs/interactive.png)  
+
 or just one command
 
 ```bash
