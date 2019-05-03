@@ -43,8 +43,12 @@ def get_bash_profile_path():
 
 
 def overwrite_java_home(java_home):
-    with open(get_bash_profile_path(), 'r') as f:
-        content = f.read().splitlines()
+    if os.path.isfile(get_bash_profile_path()):
+        with open(get_bash_profile_path(), 'r') as f:
+            content = f.read().splitlines()
+    else:
+        content = []
+
     template = 'export JAVA_HOME={} ' + LINE_MARKER + '\n'
     lines = [(l + '\n') for l in content if not l.endswith(LINE_MARKER)]
     lines.append(template.format(java_home))
