@@ -40,7 +40,7 @@ def print_available_versions(plist):
         print fstr.format(str(idx + 1), ver['JVMName'], ver['JVMHomePath'])
 
 def get_bash_profile_path():
-    return expanduser('~/.bash_profile_cp')
+    return expanduser('~/.bash_profile')
 
 
 def overwrite_java_home(java_home):
