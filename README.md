@@ -23,7 +23,7 @@ Interactive:
 ```bash
 java-switcher
 ```
-![Interactive mode](https://github.com/Andycillin/java-switcher/raw/master/docs/interactive.png)  
+![Interactive mode](https://github.com/Andycillin/java-switcher/raw/master/docs/_interactive.png)  
 
 or just one command
 
