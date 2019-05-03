@@ -20,6 +20,7 @@ SOFTWARE.
 import subprocess
 import plistlib
 from os.path import expanduser
+import os
 import sys
 
 LINE_MARKER = '### java-switcher'
