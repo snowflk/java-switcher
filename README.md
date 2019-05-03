@@ -1,4 +1,4 @@
-# java_switcher
+# java-switcher
 
 A mini script that helps you switch Java version quickly
 
