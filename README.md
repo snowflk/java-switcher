@@ -1,6 +1,6 @@
 # java-switcher
 
-A mini script that helps you switch Java version quickly
+A mini script for MacOS that helps you switch Java version quickly
 
 ## Installation
 #### Homebrew
