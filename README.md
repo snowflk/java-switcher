@@ -5,12 +5,12 @@ A mini script for MacOS that helps you switch Java version quickly
 ## Installation
 #### Homebrew
 ```bash
-brew tap andycillin/tap
+brew tap snowflk/tap
 brew install java-switcher
 ```
 #### From Github
 ```bash
-git clone https://github.com/andycillin/java-switcher
+git clone https://github.com/snowflk/java-switcher
 cd java-switcher
 ```
 Then move it to **/usr/bin** or any directory listed in your $PATH
